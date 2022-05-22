@@ -20,11 +20,15 @@ let @c='gg"+yG'
     " Once the translation is done, copy the translated text **as it is**.
     " get back to vim and continue with the below macro
 
-" create name:lang tags
+" paste the translation data
     " make a new file 'mr', paste the copied text above the cursor and save the file.
     " a simple manual review of the above copy paste operation can be to check if
     " both the en and mr files have the same number of lines. If they don't match
     " then something is wrong.
 let @p=':e mr"+P:w'
 
+" add 'name:mr' tags to all lines and save
+let @l='0GI  name:mr = ggOgg:w'
+
 " add name:lang tags to the destination file
+let @m='jyy:bnnp:bn@m'
