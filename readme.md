@@ -44,7 +44,7 @@ Clone this repo
 `git clone git@github.com:sanketgarade/osm-anuvadak.git`
 
 
-And just add below lines to your `vimrc` and set the correct path to source the `osm.vim`.
+And just add below lines to your `vimrc` and set the correct path to source the `osm.vim` file.
 ```
 " do not wrap search at end of file
 " this is needed to prevent recursive macros from running in an infinite loop
@@ -55,4 +55,6 @@ And just add below lines to your `vimrc` and set the correct path to source the 
 :source path/to/osm.vim
 ```
 
-So far I have ran this on a 5000 lines `lvl0.txt` having about 300 `name` tags.
+Note -
+So far I have ran this on a 5000 line `lvl0.txt` having about 300 `name` tags
+without any issues. :)
