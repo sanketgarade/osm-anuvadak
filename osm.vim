@@ -15,9 +15,13 @@ let @n='/name =k:e en:bn'
     " at the end of this macro the level0 data buffer will be open
 let @q='nyy:bnp:bn@q'
 
-" keep only names
-    " go to the next buffer, remove 1st (blank) line, keep only the names on each line and save the file
-let @t=':bnggdd0Gf=lx:w'
+" keep only strings to be translated
+    " go to top line
+    " go to the next buffer,
+    " remove 1st (blank) line,
+    " keep only the names on each line and
+    " save the file
+let @t='gg:bnggdd0Gf=lx:w'
 
 " copy the entire list of names into the system clipboard
 let @c='gg"+yG'
@@ -42,5 +46,6 @@ let @l='0GI  name:mr = ggOgg:w'
 let @m='jyy:bnnp:bn@m'
 
 " make macro of macros
-let @a='@n@q@t@c'
+let @a='@n@q'       " prep and extract
+let @b='@t@c'       " trim and copy
 let @d='@p@l@m'
