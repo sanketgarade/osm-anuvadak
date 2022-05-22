@@ -24,7 +24,8 @@ let @q='nyy:bnp:bn@q'
 let @t='gg:bnggdd0Gf=lx:w'
 
 " copy the entire list of names into the system clipboard
-let @c='gg"+yG'
+" and close the buffer (since it is no longer needed)
+let @c='gg"+yG:bd'
 
 " translate from en to lang
     " this is a separate task (of doing the actual translation) not related to vim
@@ -45,7 +46,11 @@ let @l='0GI  name:mr = ggOgg:w'
 " add name:lang tags to the destination file
 let @m='jyy:bnnp:bn@m'
 
+" close the `mr` buffer and save the level0 data buffer
+let @s=':bd:w'
+
 " make macro of macros
 let @a='@n@q'       " prep and extract
 let @b='@t@c'       " trim and copy
-let @d='@p@l@m'
+let @d='@p@l@m'     " paste and format
+let @s=@s           " save
