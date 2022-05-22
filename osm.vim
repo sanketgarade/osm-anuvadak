@@ -25,6 +25,6 @@ let @c='gg"+yG'
     " a simple manual review of the above copy paste operation can be to check if
     " both the en and mr files have the same number of lines. If they don't match
     " then something is wrong.
-let @p=':e mrP:w'
+let @p=':e mr"+P:w'
 
 " add name:lang tags to the destination file
