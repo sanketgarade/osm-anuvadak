@@ -1,10 +1,8 @@
-" vimrc for OSM-anuvadak
+""""""""" vimrc for OSM-anuvadak """""""""
 "
 " This file needs to be source from your vimrc for it to work.
-"
 " If you are seeing this file on Github, then key-notations used in vim may not
 " be displayed properly (such as `^M`, `^[` etc.)
-
 
 " prepare to start
     " from command line run `vim path/to/level0_editor.txt`
