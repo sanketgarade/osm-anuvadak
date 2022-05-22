@@ -39,7 +39,12 @@ button.)
 
 ## Installation -
 
-Just add below lines to your `vimrc`.
+Clone this repo
+
+`git clone git@github.com:sanketgarade/osm-anuvadak.git`
+
+
+And just add below lines to your `vimrc` and set the correct path to source the `osm.vim`.
 ```
 " do not wrap search at end of file
 " this is needed to prevent recursive macros from running in an infinite loop
