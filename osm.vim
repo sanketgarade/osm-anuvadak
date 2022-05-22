@@ -17,7 +17,7 @@ let @q='nyy:bnp:bn@q'
 
 " keep only names
     " go to the next buffer, remove 1st (blank) line, keep only the names on each line and save the file
-let @t=':bnggdd0Gf=lx:w'
+let @t=':bnggdd0Gf=lx:w'
 
 " copy the entire list of names into the system clipboard
 let @c='gg"+yG'
