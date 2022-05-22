@@ -1,3 +1,11 @@
+" vimrc for OSM-anuvadak
+"
+" This file needs to be source from your vimrc for it to work.
+"
+" If you are seeing this file on Github, then key-notations used in vim may not
+" be displayed properly (such as `^M`, `^[` etc.)
+
+
 " prepare to start
     " from command line run `vim path/to/level0_editor.txt`
     " find '/name =', go 1 line up, and create a new file to save source (English) 'name' strings
@@ -32,3 +40,7 @@ let @l='0GI  name:mr = ggOgg:w'
 
 " add name:lang tags to the destination file
 let @m='jyy:bnnp:bn@m'
+
+" make macro of macros
+let @a='@n@q@t@c'
+let @d='@p@l@m'
